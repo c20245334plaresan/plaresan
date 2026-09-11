@@ -16,3 +16,14 @@ const heading = document.querySelector("h1");
 
 const projectHeading = document.querySelector("h1");
  console.log (projectHeading);
+
+ // text content
+heading.textContent = "My Portfolio";
+contactHeading.textContent = "lets connect";
+projectHeading.textContent = "My Projects";
+
+// style
+heading.style.color = "purple";
+heading.style. backgroundColor = "yellow";
+
+    
