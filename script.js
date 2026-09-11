@@ -25,5 +25,7 @@ projectHeading.textContent = "My Projects";
 // style
 heading.style.color = "purple";
 heading.style. backgroundColor = "yellow";
-
-    
+contactHeading.style.color = "purple";
+serviceHeading.style.color = "purple";
+const projectheading = document.querySelector("#projects");
+projectHeading . style . color ="purple";
