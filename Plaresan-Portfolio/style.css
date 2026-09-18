@@ -1,0 +1,138 @@
+* { 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}  
+ body { font-family: Arial, sans-serif;
+     background-color: yellow;
+     color: brown;
+}     
+
+
+.container {
+     width: 90%;
+     max-width: 900%;
+     margin: 30px auto;
+}
+
+header {
+    background-color:black;
+
+    color:blue
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-botton: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background-color:antiquewhite;
+    padding: 25px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.card h2{
+    margin-bottom: 20px;
+    color: green;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.about div {
+    flex: 1;
+}
+
+.about p {
+    margin-bottom: 10px;
+}
+
+.skill{
+    display:flex;
+    gap: 15px;
+}
+
+.skill {
+    flex: 1;
+    padding: 20px;
+    background-color: cyan;
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: ceneter;
+}
+
+.skill h3 {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input,
+textarea {
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+ textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:darkgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ button:hover {
+    background-color: brown;
+}
+
+#result {
+    margin-top:15px;
+    font-weigth: bold;
+}
+
+footer {
+    background-color: crimson;
+    color:black;
+    text-align: cenetr;
+    padding: 20px;
+    margin-top:20px;
+    border-radius: 10px;
+}
+@media (max-width: 600px){
+
+    .about {
+        flex-direction: column;
+    }
+
+    .skill {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 95px;
+    }
+}   
